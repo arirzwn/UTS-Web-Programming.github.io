@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+/* CSS Beranda */
+header h1 {
+  background-color: #AAD7D9;
+  text-align: center;
+  font-size: 24px;
+  padding: 10px 0 10px 0;
+  color: white;
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigasi {
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+  padding-left: 20px;
+  background-color: #92C7CF;
+}
+.navigasi a {
+  text-decoration: none;
+  color: white;
+}
+.navigasi a:hover {
+  color: blue;
+}
+
+.lowker {
+  margin-top: 1rem;
+  width: 40%;
+  margin-right: 2rem;
+}
+.lowker .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.lowker .logo img {
+  width: 11%;
+}
+.lowker .detail {
+  margin-top: 20px;
+}
+.lowker button {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #92C7CF;
+  border-radius: 5px;
+}
+
+.bio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #92C7CF;
+}
+.bio img {
+  margin-top: 20px;
+  width: 25%;
+  border-radius: 10px;
+}
+.bio table {
+  width: 90%;
+  margin-top: 10px;
+}
+
+footer {
+  background-color: #AAD7D9;
+  text-align: center;
+  font-size: 13px;
+}
+
+.portofolio-body {
+  background-color: #363543;
+}
+
+.navbar-porto {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 25rem;
+}
+.navbar-porto .logo {
+  font-weight: bolder;
+  font-size: 20px;
+  color: white;
+}
+.navbar-porto .logo a {
+  text-decoration: none;
+  color: white;
+}
+.navbar-porto .navbar {
+  display: flex;
+  gap: 3rem;
+}
+.navbar-porto .navbar a {
+  text-decoration: none;
+  color: white;
+}
+
+.portofolio {
+  color: white;
+  margin-top: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.portofolio img {
+  width: 8%;
+  border-radius: 10px;
+  outline: 4px solid red;
+  padding: 10px;
+}
+.portofolio .profile {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.portofolio .profile p {
+  font-weight: 300;
+}
+.portofolio .profile button {
+  margin-top: 20px;
+  height: 2.5rem;
+  width: 7rem;
+  background-color: rgba(148, 148, 248, 0.959);
+  border-radius: 5px;
+}
+.portofolio .profile button a {
+  text-decoration: none;
+  color: white;
+}
+
+.my-porto {
+  margin-top: 6rem;
+}
+.my-porto h2 {
+  text-align: center;
+  color: white;
+}
+.my-porto .list-porto {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.my-porto .list-porto .list {
+  background-color: #2a2931;
+  width: 300px;
+  padding-bottom: 0.2rem;
+  border-radius: 7px;
+  overflow: hidden;
+}
+.my-porto .list-porto .list img {
+  width: 100%;
+}
+.my-porto .list-porto .list p {
+  color: white;
+  text-align: center;
+}
+
+.footer-porto {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 15px;
+  background-color: #ffffff;
+}
+
+.portofolio .profile .tombol-prestasi {
+  width: fit-content;
+}
+
+.text-h1 {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.list-kontak {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+.list-kontak .kontak-detail {
+  margin-top: 3rem;
+  padding-top: 3rem;
+  width: 25%;
+  background-color: #AAD7D9;
+  text-align: center;
+  border-radius: 10px;
+}
+.list-kontak .kontak-detail button {
+  margin: 1rem;
+  border-radius: 5px;
+  border: none;
+  padding: 0.4rem;
+}
+
+.kontak-kembali {
+  display: block;
+  margin: auto;
+  padding: 1rem;
+  background-color: #363543;
+  border-radius: 4px;
+}
+.kontak-kembali a {
+  color: white;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
